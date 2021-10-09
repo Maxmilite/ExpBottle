@@ -1,0 +1,14 @@
+name: ExpBottle
+version: '${project.version}'
+main: io.github.maxmilite.expbottle.ExpBottle
+api-version: 1.17
+authors: [ Maxmilite ]
+description: A plugin which supports players to storage their experience.
+website: maxmilite.github.io
+commands:
+  expbottle:
+    aliases:
+      - "eb"
+    usage: "/expbottle <operation> [<value>]"
+    description: "Commands about ExpBottle."
+    permission: "expbottle.execute"
